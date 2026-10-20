@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="nama">Nama</label>
+        <input type="text" id="nama"><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" required><br>
+
+        <label for="umur">Umur</label>
+        <input type="number" id="umur" min="1" max="120"><br>
+
+        <label>Minat Belajar</label>
+        <input type="checkbox" id="ips" value="IPS">
+        <label for="ips">IPS</label>
+        <input type="checkbox" id="rpl" value="RPL">
+        <label for="rpl">RPL</label><br>
+
+        <label>Kota</label>
+        <select>
+            <option value="jakarta">Jakarta</option>
+            <option value="lampung">Lampung</option>
+            <option value="banyumas">Banyumas</option>
+        </select><br>
+
+        <label>Sesi Kelas</label>
+        <input type="radio" name="sesi" id="pagi" value="pagi">
+        <label for="pagi">Pagi</label>
+        <input type="radio" name="sesi" id="siang" value="siang">
+        <label for="siang">Siang</label><br>
+
+        <label for="alasan">Alasan mengikuti kelas</label><br>
+        <textarea name="alasan" id="alasan" rows="3"></textarea><br>
+
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
